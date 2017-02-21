@@ -1,0 +1,1 @@
+# chartjs-for-magnolia
