@@ -1,0 +1,50 @@
+# Automatically generated dialog with few most often used fileds (text, right, link, DAM image, multivalue, link to app, select). Feel free to modify them for your specific component.
+
+form:
+  label: chartjs
+  tabs:
+    - name: tabMain
+      label: Main
+      fields:
+
+        - name: title
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Title
+
+        - name: chartType
+          class: info.magnolia.ui.form.field.definition.SelectFieldDefinition
+          label: Type
+          options:
+            - name: bar
+              value: bar
+              label: Bar
+            - name: line
+              value: line
+              label: Line
+            - name: radar
+              value: radar
+              label: Radar
+            - name: polarArea
+              value: polarArea
+              label: Polar Area
+
+        - name: data
+          description: Enter data formatted as JSON valid for chart.js library.
+          class: info.magnolia.ui.form.field.definition.CodeFieldDefinition
+          rows: 10
+          label: Data - chartjs format
+
+    - name: tabHTML
+      label: HTML
+      fields:
+
+        - name: componentId
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: ID of component
+
+
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition

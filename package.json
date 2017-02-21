@@ -1,0 +1,20 @@
+{
+  "name": "chartjs-for-magnolia",
+  "version": "0.0.1",
+  "description": "Chartjs component for Magnolia CMS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "copy-resources": "node _dev/copy-chartjs.js"
+  },
+  "keywords": [
+    "magnolia-light-module"
+  ],
+  "author": "Christopher Zimmermann",
+  "license": "MIT",
+  "devDependencies": {
+  },
+  "dependencies": {
+    "chart.js": "^2.5.0"
+  }
+}

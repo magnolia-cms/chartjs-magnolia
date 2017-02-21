@@ -1,0 +1,4 @@
+title: chartjs
+renderType: freemarker
+templateScript: /chartjs/templates/components/chartjs.ftl
+dialog: chartjs:components/chartjs
