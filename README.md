@@ -1,6 +1,6 @@
 # Chartjs - Component template for Magnolia CMS
 
-Add a chart to your website. Simple implementation of the full-featured https://chartjs.org library.
+Add a chart to your website. Simple integration of the  https://chartjs.org library.
 
 ## Features
 Choose a chart type from: bar, line, radar and polarArea.

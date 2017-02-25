@@ -1,4 +1,4 @@
 title: chartjs
 renderType: freemarker
-templateScript: /chartjs-component/templates/components/chartjs.ftl
-dialog: chartjs-component:components/chartjs
+templateScript: /chartjs-magnolia/templates/components/chartjs.ftl
+dialog: chartjs-magnolia:components/chartjs

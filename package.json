@@ -1,13 +1,14 @@
 {
-  "name": "chartjs-component",
-  "version": "0.0.2",
+  "name": "chartjs-magnolia",
+  "version": "0.0.3",
   "description": "Chartjs - Component template for Magnolia CMS",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/magnolia-cms/chartjs-component.git"
+    "url": "git+https://github.com/magnolia-cms/chartjs-magnolia.git"
   },
   "scripts": {
-    "build": "node _dev/copy-chartjs.js"
+    "build": "node _dev/copy-chartjs.js",
+    "prepublish": "echo \"Building...\" && npm run build"
   },
   "keywords": [
     "magnolia-light-module",
@@ -19,9 +20,9 @@
     ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/magnolia-cms/chartjs-component/issues"
+    "url": "https://github.com/magnolia-cms/chartjs-magnolia/issues"
   },
-  "homepage": "https://github.com/magnolia-cms/chartjs-component#readme",
+  "homepage": "https://github.com/magnolia-cms/chartjs-magnolia#readme",
   "dependencies": {
     "chart.js": "^2.5.0"
   }

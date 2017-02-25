@@ -90,7 +90,7 @@ easy demo purposes.
 Best practice is to use resfn, theme, or include in page template.
 --&gt;
 
-&lt;script src=".resources/chartjs-component/webresources/Chart.bundle.min.js"&gt;&lt;/script&gt;</sv:value>
+&lt;script src=".resources/chartjs-magnolia/webresources/Chart.bundle.min.js"&gt;&lt;/script&gt;</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:createdBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -171,7 +171,7 @@ Best practice is to use resfn, theme, or include in page template.
         <sv:value>superuser</sv:value>
       </sv:property>
       <sv:property sv:name="mgnl:template" sv:type="String">
-        <sv:value>chartjs-component:components/chartjs</sv:value>
+        <sv:value>chartjs-magnolia:components/chartjs</sv:value>
       </sv:property>
       <sv:property sv:name="title" sv:type="String">
         <sv:value>Cookie Preferences</sv:value>
