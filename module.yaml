@@ -1,0 +1,5 @@
+version: 1.0.2
+displayName: Chartjs Component
+dependencies:
+  core:
+    version: 5.4.7/*
